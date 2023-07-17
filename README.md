@@ -20,11 +20,10 @@ Logo após:
   3 - Agora ative a venv. (Ex Windows: .\venv\Scripts\Activate.ps1)
 
   4 - Instale o Flask:
-    pip install flask
+    'pip install flask'
 
   5 - Instale também:
-    pip install mysql.connector
-	  pip install pip install mysql-connector-python   
+    'pip install mysql.connector', 'pip install pip install mysql-connector-python'
 
   6 - Vá até UserModel.py na pasta models e altere o db_config
     db_config = {
@@ -36,7 +35,7 @@ Logo após:
     }
 
   7 - No terminal rode o comando
-    flask run
+    'flask run'
 
   Pronto estará funcionando o projeto!
 
